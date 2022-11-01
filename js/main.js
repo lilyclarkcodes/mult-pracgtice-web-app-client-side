@@ -23,7 +23,7 @@ function rollTwoDice () {
     document.querySelector('#showProd').addEventListener('click', showProduct)
     function showProduct () {
         console.log(productRoll)
-        document.querySelector('#product').innerText = productRoll
+        document.querySelector('#product').innerText = `${diceRollResOne} x ${diceRollResTwo} = ${productRoll}`
     }
 
 }
